@@ -27,8 +27,7 @@ import com.raghav.spacedawnv2.ui.theme.spacing
 fun AlertDialog(
     @StringRes
     title: Int,
-    @StringRes
-    content: Int,
+    @StringRes    content: Int,
     modifier: Modifier = Modifier,
     onDismissClick: () -> Unit,
     onConfirmClick: () -> Unit
